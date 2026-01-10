@@ -88,6 +88,11 @@
             key-positions = <20 21 22 23>;
             bindings = <&studio_unlock>;
         };
+
+        combo_tog_7 {
+            key-positions = <3 13>;
+            bindings = <&tog 7>;
+        };
     };
     
 
@@ -161,12 +166,12 @@
             >;
         };
 
-        layer_extra_1 {
+        layer_SC_math {
             bindings = <
-                        &none       &none       &none       &none               &none       &none       &none       &none       
-&none       &none       &none       &none       &none       &none               &none       &none       &none       &none       &none       &none       
-            &none       &none       &none       &none                                       &none       &none       &none       &none       
-                                                &none       &none               &none       &none       
+                        &kp LC(LS(C)) &kp LC(U) &kp LC(LS(V)) &kp LC(LS(MINUS)) &kp FSLH    &kp N1      &kp N2      &kp N3      
+&kp LC(Y)   &kp LC(S)   &kp LC(I)   &kp LC(A)   &kp LC(B)   &kp LC(LS(PLUS))    &kp N0      &kp N4      &kp N5      &kp N6      &kp PLUS    &kp STAR    
+            &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)                                   &kp N7      &kp N8      &kp N9      &kp MINUS   
+                                                &kp BSPC    &kp RET             &kp TAB     &kp SPACE   
             >;
         };
 
